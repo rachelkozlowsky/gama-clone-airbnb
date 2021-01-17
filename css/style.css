@@ -1,0 +1,605 @@
+/* font-family: 'Roboto',
+sans-serif; */
+
+/* font-family: 'Montserrat',
+sans-serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    background: #eee;
+  }
+  
+  #covidBlock {
+    height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: center;
+  }
+  
+  #covidBlock article h4 a {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 54px;
+  }
+  
+ 
+  #headerContainer {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+  
+  #headerContainer article {
+    display: flex;
+    height: 60px;
+    align-items: center;
+  }
+  
+  .logoBlock {
+    display: flex;
+    width: 25%;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .middleMenu {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rightMenu {
+    display: flex;
+    width: 25%;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .middleMenu ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .middleMenu ul li a {
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+  }
+  
+  .rightMenu ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .rightMenu ul li {
+    margin: 15px;
+  }
+  
+  .rightMenu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .userIconBlock {
+    background: #fff;
+    padding: 7px 11px;
+    font-size: 18px;
+    letter-spacing: 4px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 2px 0px #ccc;
+    color:black;
+  }
+  
+  .rightMenu ul li a:hover {
+    background: #111;
+    /* padding: 2px 3px; */
+    border-radius: 30px;
+    box-shadow: 1px 1px 2px 0px #ccc;
+  }
+  
+  #sliderBlock {
+    background: url("https://a0.muscache.com/pictures/18084f37-67e0-400f-bfd8-55eea0e89508.jpg");
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50% !important;
+    margin-top: -60px;
+  }
+  
+  #sliderBlockParent {
+    position: relative;
+  }
+  
+  #sliderBlock .parentContainer {
+    display: flex;
+  }
+  
+  .leftSideBlock {
+    display: flex;
+   /*  align-items: center; */
+    justify-content: center;
+    width: 25%;
+    height: 600px;
+    flex-direction: column;
+  }
+  
+  .rightSideBlock {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 75%;
+    height: 600px;
+    padding-top: 70px;
+  }
+  
+  .leftSideBlock main {
+    padding: 70px;
+  }
+  
+  .leftSideBlock main h2 {
+    font-size: 46px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    padding-top: 120px;
+    color: #fff;
+    width: 300px;
+  }
+  
+  .leftSideBlock main p {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px 0 15px;
+    color: #fff;
+  }
+  
+  .leftSideBlock main button {
+    background: #222;
+    color: #fff;
+    border-radius: 8px;
+    padding: 7px 20px;
+    border: none;
+    font-size: 15px;
+    width: max-content;
+  }
+  
+  .rightSideBlock form {
+    display: flex;
+    justify-content: flex-start;
+    background: #fff;
+    align-items: center;
+    border-radius: 30px;
+    position: relative;
+    left: -60px;
+  }
+  
+  .rightSideBlock form div {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .rightSideBlock form div input {
+    border: none;
+    padding: 3px 0;
+  }
+  
+  .rightSideBlock form div:hover {
+    background: #efefef;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .rightSideBlock form div:hover input {
+    background: transparent;
+  }
+  
+  .locationBlock {
+    width: 35%;
+  }
+  
+  .checkInBlock {
+    width: 20%;
+  }
+  
+  .checkoutBlock {
+    width: 20%;
+  }
+  
+  .guestBlock {
+    width: 25%;
+    position: relative;
+  }
+  
+  .guestBlock i {
+    background: #ff385c;
+    padding: 15px;
+    display: inline-block;
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    border-radius: 30px;
+    font-weight: normal;
+  }
+  
+  .rightSideBlock form div label {
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+    padding-bottom: 2px;
+    text-transform: capitalize;
+  }
+  
+  .rightSideBlock form div input:focus {
+    box-shadow: 1px 1px 2px 0px #ccc;
+    border: none;
+    outline: none;
+  }
+  #btn1{
+      background-color: white;
+      color:black;
+  }
+
+  .flex-container {
+    display: -ms-flexbox;
+    -ms-flexbox-wrap: wrap;
+    -ms-flexbox-direction: column;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: flex;
+    align-content:space-between;
+
+  }
+
+.flex-container div{
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  width: 200px;
+ 
+}
+
+.flex-container img{
+  width: 100%;
+  height: auto;
+
+}
+
+
+@media screen and (max-width:400px){
+  .flex-container div{
+    margin:0;
+  }
+  .flex-container{
+    padding: 0;
+  }
+}
+
+  #cardSection article {
+    margin: 20px auto;
+    display : flex;
+  }
+  
+  #cardSection article div {
+    background: #fff;
+    border-radius: 15px;
+  }
+  
+  #cardSection article div img {
+    border-radius: 15px 15px 0 0;
+  }
+  
+  #cardSection article div h3 {
+    padding: 5px 10px 0;
+    font-size: 16px;
+  }
+  
+  #cardSection article div p {
+    padding: 10px;
+    font-size: 13px;
+  }
+  
+.card  img {
+  max-height: 200px;
+}
+  
+  #broadwaySection
+  {
+      background-color: #000;
+      color:white
+  } 
+ 
+  
+  #broadwaySection article {
+    width: 90%;
+    margin: 20px auto;
+  }
+  
+  #broadwaySection article header {
+    display: flex;
+    padding: 60px 10px;
+  }
+  
+  #broadwaySection article header .leftHead {
+    width: 35%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  
+  #broadwaySection article header .leftHead h3 {
+    font-size: 27px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+  }
+  
+  #broadwaySection article header .leftHead p {
+    font-size: 15px;
+  }
+  
+  #broadwaySection article header .rightHead {
+    width: 65%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  
+  #broadwaySection article header .rightHead button {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #broadwaySection article header .rightHead button:hover {
+    background: #999;
+  }
+  
+  #broadwaySection article main {
+    display: flex;
+  }
+  
+  #broadwaySection article aside {
+    width: 50%;
+    margin: 10px;
+  }
+  
+  #broadwaySection img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+  }
+  
+  #broadwaySection .asideLeft div {
+    background: rgb(34, 34, 34);
+    border-radius: 20px;
+  }
+  
+  #broadwaySection h4 {
+    padding: 20px;
+    font-size: 13px;
+  }
+  
+  .asideRight .mixedBroadwayBlock .topMixedBlock {
+    display: flex;
+  }
+  
+  .asideRight .mixedBroadwayBlock .topMixedBlock div {
+    width: 50%;
+    margin: 0px 10px;
+    background: rgb(34, 34, 34);
+    border-radius: 20px;
+  }
+  
+  .asideRight .mixedBroadwayBlock .bottomMixedBlock div {
+    background: rgb(34, 34, 34);
+    border-radius: 20px;
+    margin: 20px 10px;
+  }
+  
+  #prefooter{
+  display: -ms-flexbox;
+  -ms-flexbox-wrap: wrap;
+ 
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+ 
+  display: flex;
+  align-content:space-between;
+ justify-content: center;
+  margin: 20px 40px 20px 40px;
+  
+}
+
+#prefooter div img{
+  margin-top: 30px;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.prefooter{
+  margin: 5px;
+  display: -ms-flexbox;
+  -ms-flexbox-wrap: wrap;
+ flex-direction: row;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: flex;
+  align-content:space-between;
+} 
+  
+ #footerBlock {
+    background-color: rgb(247 247 247);
+    border-top: 1px solid rgb(221 221 221);
+  }
+  
+  #footerBlock article {
+    width: 90%;
+    margin: 10px auto 0;
+    display: flex;
+  }
+  
+  #footerBlock article div {
+    width: 25%;
+  }
+  
+  #footerBlock article div ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #footerBlock article div h4 {
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 30px 0 20px;
+    font-weight: bold;
+  }
+  
+  #footerBlock article div ul li a {
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+    color: #111;
+    font-size: 15px;
+  }
+  
+  #footerBlock article div ul li a:hover {
+    text-decoration: underline;
+  }
+  
+    
+    #footerBottom {
+    background-color: rgb(247 247 247);
+  }
+  
+  #footerBottom article {
+    background-color: rgb(247 247 247);
+    border-top: 1px solid rgb(221 221 221);
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  #footerBottom article div {
+   
+    height: 50px;
+    padding: 30px 0;
+  }
+
+  .footerLeft{
+    display: flex;
+    justify-content: flex-start;
+  
+  }
+  
+.footerLeft ul li{
+  display: inline;
+  text-decoration: none;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.footerLeft ul li a{
+  text-decoration: none;
+  color: #000;
+}
+
+  .footerRight {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .footerRight ul li {
+    display: inline;
+    text-decoration: none;
+    color: #000;
+    padding-left: 15px;
+  }
+
+  .footerRight ul li a{
+    text-decoration: none;
+    color: #000;
+  }
+
+  .footerRight ul li i{
+    display: inline;
+    text-decoration: none;
+    color: #000;
+    padding-left: 15px;
+  }
+
+  
+  .card-body {
+    height: 150px;
+    max-height: 150px;
+  }
+  
+  .property-type {
+    color: #a52903;
+    font-weight: bold;
+  }
+  
+  .property-name {
+    color: #484848;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    margin: 0;
+  }
+  
+  
+  .property-price {
+    color: #484848;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 0;
+    margin-top: 5px;
+  }
+  
+  .pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ .pagination span{
+  padding: 5px;
+  font-weight: bold;
+ }
+
+.active{
+   color: red;
+
+ }
+
+ .pagination span:hover {
+   color: #FFF;
+   background-color: #000;
+   background-origin: border-box;
+   border-radius: 50px;
+   
+  
+ }
